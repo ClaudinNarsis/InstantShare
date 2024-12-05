@@ -1,0 +1,18 @@
+{
+  "" : {
+    "dependencies" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex/InstantShareIntent.build/Debug-iphoneos/InstantShareIntent.build/Objects-normal/arm64/InstantShareIntent-master.d",
+    "diagnostics" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex/InstantShareIntent.build/Debug-iphoneos/InstantShareIntent.build/Objects-normal/arm64/InstantShareIntent-master.dia",
+    "emit-module-dependencies" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex/InstantShareIntent.build/Debug-iphoneos/InstantShareIntent.build/Objects-normal/arm64/InstantShareIntent-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex/InstantShareIntent.build/Debug-iphoneos/InstantShareIntent.build/Objects-normal/arm64/InstantShareIntent-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex/InstantShareIntent.build/Debug-iphoneos/InstantShareIntent.build/Objects-normal/arm64/InstantShareIntent-master.swiftdeps"
+  },
+  "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex/InstantShareIntent.build/Debug-iphoneos/InstantShareIntent.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/InstantShareIntent/ContentView.swift" : {
+
+  },
+  "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/InstantShareIntent/InstantShareIntentApp.swift" : {
+
+  }
+}

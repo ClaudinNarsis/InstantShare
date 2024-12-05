@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		012E21D52D0172170067EACA /* InstantShare.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 012E21CC2D0172170067EACA /* InstantShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27DE93699D2D148FF33C7FEF /* Pods_InstantShare_InstantShareIntentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0E38A46AB78FD5DC5F4043 /* Pods_InstantShare_InstantShareIntentUITests.framework */; };
+		4F2118E8E0C1D01145591E91 /* Pods_InstantShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BEB6A88B555707F24144CC /* Pods_InstantShare.framework */; };
+		A05D06FAD061BD2EB6C78D6B /* Pods_InstantShareIntentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45D8BA37AA0201ACAF98829 /* Pods_InstantShareIntentTests.framework */; };
+		FB498D4C03FEB4F74B06C9AD /* Pods_InstantShareIntent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C4302B54CB50B89934896C /* Pods_InstantShareIntent.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		012E21AC2D0171DF0067EACA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,28 +29,86 @@
 			remoteGlobalIDString = 012E219A2D0171DD0067EACA;
 			remoteInfo = InstantShareIntent;
 		};
+		012E21D32D0172170067EACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012E21932D0171DD0067EACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012E21CB2D0172170067EACA;
+			remoteInfo = InstantShare;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		012E21DA2D0172170067EACA /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				012E21D52D0172170067EACA /* InstantShare.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		012E219B2D0171DD0067EACA /* InstantShareIntent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantShareIntent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		012E21AB2D0171DF0067EACA /* InstantShareIntentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantShareIntentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012E21B52D0171DF0067EACA /* InstantShareIntentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantShareIntentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		012E21CC2D0172170067EACA /* InstantShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = InstantShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		023990B9D22F9C2EEECD58BE /* Pods-InstantShareIntent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShareIntent.debug.xcconfig"; path = "Target Support Files/Pods-InstantShareIntent/Pods-InstantShareIntent.debug.xcconfig"; sourceTree = "<group>"; };
+		36923E4B437BD8504741D9D9 /* Pods-InstantShareIntentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShareIntentTests.debug.xcconfig"; path = "Target Support Files/Pods-InstantShareIntentTests/Pods-InstantShareIntentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50B28A427CA9F77949CB01BF /* Pods-InstantShareIntent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShareIntent.release.xcconfig"; path = "Target Support Files/Pods-InstantShareIntent/Pods-InstantShareIntent.release.xcconfig"; sourceTree = "<group>"; };
+		7FDED3DD01644E6B3E5BC540 /* Pods-InstantShareIntentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShareIntentTests.release.xcconfig"; path = "Target Support Files/Pods-InstantShareIntentTests/Pods-InstantShareIntentTests.release.xcconfig"; sourceTree = "<group>"; };
+		83BEB6A88B555707F24144CC /* Pods_InstantShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7E6184B5BB96BA0F522F85 /* Pods-InstantShare-InstantShareIntentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShare-InstantShareIntentUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstantShare-InstantShareIntentUITests/Pods-InstantShare-InstantShareIntentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C6BD21C6B1FF2E4AAECA3D /* Pods-InstantShare-InstantShareIntentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShare-InstantShareIntentUITests.release.xcconfig"; path = "Target Support Files/Pods-InstantShare-InstantShareIntentUITests/Pods-InstantShare-InstantShareIntentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9C4302B54CB50B89934896C /* Pods_InstantShareIntent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantShareIntent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0E38A46AB78FD5DC5F4043 /* Pods_InstantShare_InstantShareIntentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantShare_InstantShareIntentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B359EF0513B7B9F4EEC8B6 /* Pods-InstantShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShare.release.xcconfig"; path = "Target Support Files/Pods-InstantShare/Pods-InstantShare.release.xcconfig"; sourceTree = "<group>"; };
+		D45D8BA37AA0201ACAF98829 /* Pods_InstantShareIntentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantShareIntentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4437C8366CF005D07878EBC /* Pods-InstantShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantShare.debug.xcconfig"; path = "Target Support Files/Pods-InstantShare/Pods-InstantShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		012E21D62D0172170067EACA /* Exceptions for "InstantShare" folder in "InstantShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 012E21CB2D0172170067EACA /* InstantShare */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		012E219D2D0171DD0067EACA /* InstantShareIntent */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = InstantShareIntent;
 			sourceTree = "<group>";
 		};
 		012E21AE2D0171DF0067EACA /* InstantShareIntentTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = InstantShareIntentTests;
 			sourceTree = "<group>";
 		};
 		012E21B82D0171DF0067EACA /* InstantShareIntentUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = InstantShareIntentUITests;
+			sourceTree = "<group>";
+		};
+		012E21CD2D0172170067EACA /* InstantShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				012E21D62D0172170067EACA /* Exceptions for "InstantShare" folder in "InstantShare" target */,
+			);
+			path = InstantShare;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB498D4C03FEB4F74B06C9AD /* Pods_InstantShareIntent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05D06FAD061BD2EB6C78D6B /* Pods_InstantShareIntentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +134,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DE93699D2D148FF33C7FEF /* Pods_InstantShare_InstantShareIntentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012E21C92D0172170067EACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2118E8E0C1D01145591E91 /* Pods_InstantShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +155,10 @@
 				012E219D2D0171DD0067EACA /* InstantShareIntent */,
 				012E21AE2D0171DF0067EACA /* InstantShareIntentTests */,
 				012E21B82D0171DF0067EACA /* InstantShareIntentUITests */,
+				012E21CD2D0172170067EACA /* InstantShare */,
 				012E219C2D0171DD0067EACA /* Products */,
+				506146813D414F0F7DD4007B /* Pods */,
+				C4568734118044383842F9F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +168,35 @@
 				012E219B2D0171DD0067EACA /* InstantShareIntent.app */,
 				012E21AB2D0171DF0067EACA /* InstantShareIntentTests.xctest */,
 				012E21B52D0171DF0067EACA /* InstantShareIntentUITests.xctest */,
+				012E21CC2D0172170067EACA /* InstantShare.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		506146813D414F0F7DD4007B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4437C8366CF005D07878EBC /* Pods-InstantShare.debug.xcconfig */,
+				C5B359EF0513B7B9F4EEC8B6 /* Pods-InstantShare.release.xcconfig */,
+				8B7E6184B5BB96BA0F522F85 /* Pods-InstantShare-InstantShareIntentUITests.debug.xcconfig */,
+				A4C6BD21C6B1FF2E4AAECA3D /* Pods-InstantShare-InstantShareIntentUITests.release.xcconfig */,
+				023990B9D22F9C2EEECD58BE /* Pods-InstantShareIntent.debug.xcconfig */,
+				50B28A427CA9F77949CB01BF /* Pods-InstantShareIntent.release.xcconfig */,
+				36923E4B437BD8504741D9D9 /* Pods-InstantShareIntentTests.debug.xcconfig */,
+				7FDED3DD01644E6B3E5BC540 /* Pods-InstantShareIntentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4568734118044383842F9F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83BEB6A88B555707F24144CC /* Pods_InstantShare.framework */,
+				BA0E38A46AB78FD5DC5F4043 /* Pods_InstantShare_InstantShareIntentUITests.framework */,
+				B9C4302B54CB50B89934896C /* Pods_InstantShareIntent.framework */,
+				D45D8BA37AA0201ACAF98829 /* Pods_InstantShareIntentTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,20 +206,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 012E21BF2D0171DF0067EACA /* Build configuration list for PBXNativeTarget "InstantShareIntent" */;
 			buildPhases = (
+				BD311FD371C2337367937068 /* [CP] Check Pods Manifest.lock */,
 				012E21972D0171DD0067EACA /* Sources */,
 				012E21982D0171DD0067EACA /* Frameworks */,
 				012E21992D0171DD0067EACA /* Resources */,
+				012E21DA2D0172170067EACA /* Embed ExtensionKit Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				012E21D42D0172170067EACA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				012E219D2D0171DD0067EACA /* InstantShareIntent */,
 			);
 			name = InstantShareIntent;
-			packageProductDependencies = (
-			);
 			productName = InstantShareIntent;
 			productReference = 012E219B2D0171DD0067EACA /* InstantShareIntent.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 012E21C22D0171DF0067EACA /* Build configuration list for PBXNativeTarget "InstantShareIntentTests" */;
 			buildPhases = (
+				E4F08B517E3FA971F9B85350 /* [CP] Check Pods Manifest.lock */,
 				012E21A72D0171DF0067EACA /* Sources */,
 				012E21A82D0171DF0067EACA /* Frameworks */,
 				012E21A92D0171DF0067EACA /* Resources */,
@@ -134,8 +243,6 @@
 				012E21AE2D0171DF0067EACA /* InstantShareIntentTests */,
 			);
 			name = InstantShareIntentTests;
-			packageProductDependencies = (
-			);
 			productName = InstantShareIntentTests;
 			productReference = 012E21AB2D0171DF0067EACA /* InstantShareIntentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 012E21C52D0171DF0067EACA /* Build configuration list for PBXNativeTarget "InstantShareIntentUITests" */;
 			buildPhases = (
+				DF49A491AD59A39DFAB045C1 /* [CP] Check Pods Manifest.lock */,
 				012E21B12D0171DF0067EACA /* Sources */,
 				012E21B22D0171DF0067EACA /* Frameworks */,
 				012E21B32D0171DF0067EACA /* Resources */,
@@ -157,11 +265,30 @@
 				012E21B82D0171DF0067EACA /* InstantShareIntentUITests */,
 			);
 			name = InstantShareIntentUITests;
-			packageProductDependencies = (
-			);
 			productName = InstantShareIntentUITests;
 			productReference = 012E21B52D0171DF0067EACA /* InstantShareIntentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		012E21CB2D0172170067EACA /* InstantShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012E21D72D0172170067EACA /* Build configuration list for PBXNativeTarget "InstantShare" */;
+			buildPhases = (
+				9585807D8130EEDEB5F7089C /* [CP] Check Pods Manifest.lock */,
+				012E21C82D0172170067EACA /* Sources */,
+				012E21C92D0172170067EACA /* Frameworks */,
+				012E21CA2D0172170067EACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				012E21CD2D0172170067EACA /* InstantShare */,
+			);
+			name = InstantShare;
+			productName = InstantShare;
+			productReference = 012E21CC2D0172170067EACA /* InstantShare.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,6 +311,9 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = 012E219A2D0171DD0067EACA;
 					};
+					012E21CB2D0172170067EACA = {
+						CreatedOnToolsVersion = 16.0;
+					};
 				};
 			};
 			buildConfigurationList = 012E21962D0171DD0067EACA /* Build configuration list for PBXProject "InstantShareIntent" */;
@@ -203,6 +333,7 @@
 				012E219A2D0171DD0067EACA /* InstantShareIntent */,
 				012E21AA2D0171DF0067EACA /* InstantShareIntentTests */,
 				012E21B42D0171DF0067EACA /* InstantShareIntentUITests */,
+				012E21CB2D0172170067EACA /* InstantShare */,
 			);
 		};
 /* End PBXProject section */
@@ -229,7 +360,105 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		012E21CA2D0172170067EACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9585807D8130EEDEB5F7089C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD311FD371C2337367937068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantShareIntent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF49A491AD59A39DFAB045C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantShare-InstantShareIntentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F08B517E3FA971F9B85350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantShareIntentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		012E21972D0171DD0067EACA /* Sources */ = {
@@ -253,6 +482,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		012E21C82D0172170067EACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +501,11 @@
 			isa = PBXTargetDependency;
 			target = 012E219A2D0171DD0067EACA /* InstantShareIntent */;
 			targetProxy = 012E21B62D0171DF0067EACA /* PBXContainerItemProxy */;
+		};
+		012E21D42D0172170067EACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012E21CB2D0172170067EACA /* InstantShare */;
+			targetProxy = 012E21D32D0172170067EACA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -390,6 +631,7 @@
 		};
 		012E21C02D0171DF0067EACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023990B9D22F9C2EEECD58BE /* Pods-InstantShareIntent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +661,7 @@
 		};
 		012E21C12D0171DF0067EACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B28A427CA9F77949CB01BF /* Pods-InstantShareIntent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +691,7 @@
 		};
 		012E21C32D0171DF0067EACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36923E4B437BD8504741D9D9 /* Pods-InstantShareIntentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +711,7 @@
 		};
 		012E21C42D0171DF0067EACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDED3DD01644E6B3E5BC540 /* Pods-InstantShareIntentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +731,7 @@
 		};
 		012E21C62D0171DF0067EACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7E6184B5BB96BA0F522F85 /* Pods-InstantShare-InstantShareIntentUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +749,7 @@
 		};
 		012E21C72D0171DF0067EACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C6BD21C6B1FF2E4AAECA3D /* Pods-InstantShare-InstantShareIntentUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,6 +762,58 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = InstantShareIntent;
+			};
+			name = Release;
+		};
+		012E21D82D0172170067EACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4437C8366CF005D07878EBC /* Pods-InstantShare.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3MA58PS4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstantShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InstantShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smoose.InstantShareIntent.InstantShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012E21D92D0172170067EACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B359EF0513B7B9F4EEC8B6 /* Pods-InstantShare.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3MA58PS4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstantShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InstantShare;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smoose.InstantShareIntent.InstantShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -553,6 +852,15 @@
 			buildConfigurations = (
 				012E21C62D0171DF0067EACA /* Debug */,
 				012E21C72D0171DF0067EACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012E21D72D0172170067EACA /* Build configuration list for PBXNativeTarget "InstantShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012E21D82D0172170067EACA /* Debug */,
+				012E21D92D0172170067EACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

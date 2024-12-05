@@ -1,0 +1,69 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "468d13b534ab657b645dacd10aca2b793e210e28ea2087d2172a45a745a7c957"
+    }
+  ],
+  "containerPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/InstantShareIntent.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos18.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Build/Products",
+      "derivedDataPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone12,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.1.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone12,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "00008030-0002613902E3C02E",
+          "TARGET_DEVICE_MODEL" : "iPhone12,1",
+          "TARGET_DEVICE_OS_VERSION" : "18.1.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

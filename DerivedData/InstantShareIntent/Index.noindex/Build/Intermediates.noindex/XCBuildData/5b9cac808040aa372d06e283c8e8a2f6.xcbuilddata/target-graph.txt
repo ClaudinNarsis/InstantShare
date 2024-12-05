@@ -1,0 +1,17 @@
+Target dependency graph (10 targets)
+Target 'InstantShareIntentUITests' in project 'InstantShareIntent' (no dependencies)
+Target 'InstantShareIntentUITests' in project 'InstantShareIntent'
+➜ Explicit dependency on target 'InstantShareIntent' in project 'InstantShareIntent'
+Target 'InstantShareIntentUITests' in project 'InstantShareIntent'
+➜ Explicit dependency on target 'InstantShareIntent' in project 'InstantShareIntent'
+Target 'InstantShareIntentTests' in project 'InstantShareIntent' (no dependencies)
+Target 'InstantShareIntentTests' in project 'InstantShareIntent'
+➜ Explicit dependency on target 'InstantShareIntent' in project 'InstantShareIntent'
+Target 'InstantShareIntentTests' in project 'InstantShareIntent'
+➜ Explicit dependency on target 'InstantShareIntent' in project 'InstantShareIntent'
+Target 'InstantShareIntent' in project 'InstantShareIntent'
+➜ Explicit dependency on target 'InstantShare' in project 'InstantShareIntent'
+Target 'InstantShare' in project 'InstantShareIntent' (no dependencies)
+Target 'InstantShareIntent' in project 'InstantShareIntent'
+➜ Explicit dependency on target 'InstantShare' in project 'InstantShareIntent'
+Target 'InstantShare' in project 'InstantShareIntent' (no dependencies)

@@ -1,0 +1,62 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "468d13b534ab657b645dacd10aca2b79d5dfcc75293778d56166601db253155f"
+    }
+  ],
+  "containerPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/InstantShareIntent.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos18.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Build/Products",
+      "pchPath" : "/Users/nick/Bringer-Development/InstantShareIntent/InstantShareIntent/DerivedData/InstantShareIntent/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'InstantShareIntent' in project 'InstantShareIntent'
+➜ Explicit dependency on target 'InstantShare' in project 'InstantShareIntent'
+Target 'InstantShare' in project 'InstantShareIntent' (no dependencies)
